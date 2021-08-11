@@ -8,7 +8,7 @@
 - Handlebars;
 - Sass/SCSS;
 - PostCSS;
-- ESLint, stylelint, Prettier;
+- ESLint, Prettier;
 - Deployment system.
 
 ## Getting Started

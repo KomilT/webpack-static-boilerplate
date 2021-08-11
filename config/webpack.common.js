@@ -1,6 +1,5 @@
 const CopyPlugin = require("copy-webpack-plugin");
 const ESLintPlugin = require("eslint-webpack-plugin");
-const StylelintPlugin = require("stylelint-webpack-plugin");
 const SpriteLoaderPlugin = require("svg-sprite-loader/plugin");
 const { generateTemplatePlugins } = require("../lib/template-plugins");
 const paths = require("./paths");
@@ -56,7 +55,6 @@ module.exports = {
 
   plugins: [
     new ESLintPlugin(),
-    new StylelintPlugin(),
     new SpriteLoaderPlugin(),
 
     new CopyPlugin({
